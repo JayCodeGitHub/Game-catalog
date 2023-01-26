@@ -18,7 +18,7 @@ function search() {
 
     function onSubmit(e) {
         const inputValue = input.value
-        console.log(inputValue)
+        console.log(`Form was submited with input: ${inputValue}`)
         input.value = ''
         e.preventDefault();
         form.classList.remove("active")
