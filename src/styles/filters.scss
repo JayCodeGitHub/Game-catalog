@@ -1,0 +1,21 @@
+#platform, #genre {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: grey;
+}
+
+select {
+    width: 100%;
+    min-width: 8rem;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}

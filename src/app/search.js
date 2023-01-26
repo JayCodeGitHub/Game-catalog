@@ -21,5 +21,6 @@ export function run() {
         console.log(inputValue)
         input.value = ''
         e.preventDefault();
+        form.classList.remove("active")
     }
 }

@@ -19,9 +19,26 @@
                 <input placeholder="Search for game" id="searchInput"/>
             </form>
         </div>
-        <div id="filters">
-            <h2>Filter</h2>
-            <h2>Filter</h2>
+        <div id="filtersWrapper">
+            <form id="platformForm">
+                <label for="platform">Platform</label>
+              <select name="platform" id="platform" form="platformForm">
+                <option value="all">all</option>
+                <option value="ps5">PS5</option>
+                <option value="xsx">XSX</option>
+                <option value="pc">PC</option>
+              </select>
+            </form>
+            <form id="genreForm">
+                <label for="genre">Genre</label>
+              <select name="genre" id="genre" form="genreForm">
+                <option value="all">all</option>
+                <option value="action">Action</option>
+                <option value="adventure">Adventure</option>
+                <option value="casual">Casual</option>
+                <option value="multiplayer">Multiplayer</option>
+              </select>
+            </form>
         </div>
     </header>
     <main>
