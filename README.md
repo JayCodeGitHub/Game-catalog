@@ -2,6 +2,8 @@
 
 Simple site with database game search and sorting by category.
 
+## Visit Site - [gamecatalog.netlify.app](https://gamecatalog.netlify.app/)
+
 ## Screenshots
 
 ![GameCatalogDesktop](https://user-images.githubusercontent.com/66550003/214965613-e07565f8-11f6-4fcc-be1b-730224250d71.png)
