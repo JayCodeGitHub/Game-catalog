@@ -8,7 +8,25 @@ function filters() {
  function onSubmit() {
     const platform = document.getElementById("platform").value
     const genre = document.getElementById("genre").value
-    console.log(`Form was submited with input: ${platform} and ${genre}`)
+
+    const games = document.getElementsByClassName("game")
+        for( let i =0; i< games.length; i++) {
+            if(platform.includes("all") && genre.includes("all")){
+               games[i].style.display = 'flex'
+            }
+            else if(genre.includes("all") && games[i].childNodes[2].innerText.toLowerCase().includes(platform.toLowerCase())) {
+                games[i].style.display = 'flex'
+            }
+            else if(platform.includes("all") && games[i].childNodes[3].innerText.toLowerCase().includes(genre.toLowerCase())) {
+               games[i].style.display = 'flex'
+           }
+            else if(games[i].childNodes[2].innerText.toLowerCase().includes(platform.toLowerCase()) && games[i].childNodes[3].innerText.toLowerCase().includes(genre.toLowerCase())) {
+               games[i].style.display = 'flex'
+           }
+            else {
+                games[i].style.display = 'none'
+            }
+        }
  }
 }
 

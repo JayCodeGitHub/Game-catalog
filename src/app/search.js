@@ -29,6 +29,9 @@ function search() {
             }
         }
 
+        document.getElementById("platform").selectedIndex = "0"
+        document.getElementById("genre").selectedIndex = "0"
+
         input.value = ''
         e.preventDefault();
         form.classList.remove("active")
