@@ -5,7 +5,7 @@ function games() {
 
     GamesItems.forEach((item) => {
         const game = document.createElement('div');
-        game.id = 'game';
+        game.className = 'game';
 
         const title = document.createElement('h2');
         title.innerHTML = item.title
