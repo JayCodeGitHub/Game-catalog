@@ -1,4 +1,4 @@
-export function run() {
+function search() {
     const search = document.getElementById("search");
     const form = document.getElementById("searchForm");
     const input = document.getElementById("searchInput")
@@ -24,3 +24,5 @@ export function run() {
         form.classList.remove("active")
     }
 }
+
+export default search
