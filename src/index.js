@@ -1,5 +1,3 @@
-import { run } from "./app/app"
+import { run } from "./app/search"
 import "./styles/main.scss"
-
-console.log("inderbnx");
 run()
