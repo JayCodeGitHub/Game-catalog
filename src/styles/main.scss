@@ -41,11 +41,19 @@ header {
     align-items: center; 
 }
 
+#games {
+    padding-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 #game {
-    width: 20%;
-    height: 35rem;
+    width: 22%;
+    height: 38rem;
     color: grey;
     display: flex;
+    margin: 1rem 1.5%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
