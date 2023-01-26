@@ -44,7 +44,7 @@ svg {
 }
 
 .active {
-    width: 25rem !important;
+    width: 20rem !important;
     cursor: pointer !important;
     padding: 0.5rem !important;
     input {
@@ -53,5 +53,8 @@ svg {
     }
     #search {
         pointer-events: none;
+    }
+    @media (min-width: 768px) {
+        width: 25rem !important;
     }
 }
