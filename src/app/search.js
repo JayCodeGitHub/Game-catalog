@@ -2,9 +2,11 @@ export function run() {
     const search = document.getElementById("search");
     const form = document.getElementById("searchForm");
     const input = document.getElementById("searchInput")
-    search.addEventListener('click',  (e) => click(e))
+    search.addEventListener('click',  () => click())
 
-    function click(e) {
+    form.addEventListener("submit", (e) => onSubmit(e))
+
+    function click() {
         form.classList.toggle("active")
         input.focus()
     }
@@ -13,4 +15,11 @@ export function run() {
             form.classList.remove("active")
         }
     })
+
+    function onSubmit(e) {
+        const inputValue = input.value
+        console.log(inputValue)
+        input.value = ''
+        e.preventDefault();
+    }
 }
