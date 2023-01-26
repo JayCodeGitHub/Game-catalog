@@ -112,3 +112,33 @@ header {
     }
 }
 
+footer {
+    background-color: rgba(108,122,137,.2);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        width: 80%;
+        transition: all .1s 0s ease-in-out;
+        a {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        svg {
+            margin: 0;
+            padding: 0;
+            width: 5rem;
+        }
+    }
+    span:hover {
+        color: grey;
+    }
+}
