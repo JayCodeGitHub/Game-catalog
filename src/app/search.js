@@ -18,7 +18,17 @@ function search() {
 
     function onSubmit(e) {
         const inputValue = input.value
-        console.log(`Form was submited with input: ${inputValue}`)
+
+        const games = document.getElementsByClassName("game")
+        for( let i =0; i< games.length; i++) {
+            if(games[i].childNodes[1].innerText.toLowerCase().includes(inputValue.toLowerCase())) {
+                games[i].style.display = 'flex'
+            }
+            else {
+                games[i].style.display = 'none'
+            }
+        }
+
         input.value = ''
         e.preventDefault();
         form.classList.remove("active")
