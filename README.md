@@ -2,6 +2,10 @@
 
 Simple site with database game search and sorting by category.
 
+## Tech Stack
+
+`html` `javascript` `sass` `webpack` `npm-scripts`
+
 ## Visit Site - [gamecatalog.netlify.app](https://gamecatalog.netlify.app/)
 
 ## Screenshots
