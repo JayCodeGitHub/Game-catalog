@@ -2,7 +2,7 @@
 
 Application with a catalog of games where you can sort and search for games
 
-## Visit Site - [gamecatalog.netlify.app](https://gamecatalog.netlify.app/)
+## Visit Site - [game-catalog.pl](https://game-catalog.pl/)
 
 ## Tech Stack ##
 
